@@ -1,0 +1,18 @@
+@import './colorsFonts.scss';
+@import '../components/Navigation/navigation.module.scss';
+@import '../components/Header/header.module.scss';
+@import '../components/Button/Button.module.scss';
+@import '../components/AboutUs/About.module.scss';
+@import '../components/HowItMade/How.module.scss';
+@import '../components/Chefs/Chefs.module.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Sora', sans-serif;
+}

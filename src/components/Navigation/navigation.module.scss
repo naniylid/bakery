@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 64px;
+  position: relative;
+  z-index: 2;
+
+  &__logo {
+    font-size: 24px;
+  }
+
+  &__list {
+    display: flex;
+
+    li {
+      list-style: none;
+      padding-left: 50px;
+    }
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    min-width: 80px;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}
