@@ -1,0 +1,17 @@
+@import './colorsFonts.scss';
+@import '../components/Navigation/Navigation.module.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: $font-family;
+}
+
+.container {
+  max-width: 1440px;
+}

@@ -1,18 +1,10 @@
-import { Navigation } from '@/components/Navigation';
-import '../styles/App.scss';
-import { Header } from '@/components/Header';
-import { AboutUs } from '@/components/AboutUs';
-import { HowItsMade } from '@/components/HowItMade';
-import { Chefs } from '@/components/Chefs';
+import './styles/App.scss';
+import { Navigation } from './components/Navigation';
 
 export default function Home() {
   return (
-    <>
+    <div className='container'>
       <Navigation />
-      <Header />
-      <AboutUs />
-      <HowItsMade />
-      <Chefs />
-    </>
+    </div>
   );
 }
