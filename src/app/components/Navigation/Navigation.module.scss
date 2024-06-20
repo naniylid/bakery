@@ -28,6 +28,10 @@
         line-height: 150%;
         text-transform: uppercase;
         color: #606060;
+
+        &:hover {
+          color: orange;
+        }
       }
     }
   }

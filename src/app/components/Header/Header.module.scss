@@ -1,0 +1,138 @@
+@import '../../styles/colorsFonts.scss';
+
+.header {
+  display: flex;
+  margin-top: 110px;
+  margin-left: 97px;
+
+  &__left-side {
+    &--line {
+      margin-bottom: 10px;
+      border: 1px solid #201f1f;
+      width: 195px;
+      height: 0px;
+      opacity: 0.2;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 75px;
+      line-height: 120%;
+      letter-spacing: -0.04em;
+      text-transform: capitalize;
+      color: #141416;
+      max-width: 567px;
+    }
+
+    p {
+      max-width: 500px;
+      margin-top: 16px;
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 156%;
+      text-align: justify;
+      color: #676767;
+      strong {
+        font-weight: 600;
+        color: #141416;
+      }
+    }
+
+    &--button-wrapper {
+      margin-top: 45px;
+      display: flex;
+
+      .dark-button {
+        cursor: pointer;
+        width: 179px;
+        height: 60px;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 12px;
+        background: #000;
+      }
+
+      .light-button {
+        cursor: pointer;
+        margin-left: 44px;
+        border: 1.5px solid #000;
+        background: #f9f9f9;
+        border-radius: 12px;
+        width: 138px;
+        height: 60px;
+
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #000;
+      }
+    }
+
+    &--statistics {
+      margin-top: 82px;
+      width: 452px;
+      height: 70px;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          list-style: none;
+
+          h3 {
+            font-family: $font5;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 125%;
+            text-align: center;
+            color: #141416;
+          }
+
+          p {
+            margin-top: 5px;
+            font-family: $second-family;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 150%;
+            color: #848586;
+          }
+        }
+      }
+    }
+  }
+
+  &__right-side {
+    margin-left: 48px;
+
+    .arrow {
+      position: absolute;
+      margin-left: 420px;
+      margin-top: 42px;
+    }
+
+    .background {
+      position: absolute;
+      display: flex;
+      z-index: 1;
+      margin-left: 660px;
+    }
+
+    &--images {
+      width: 780px;
+      display: flex;
+      position: relative;
+      z-index: 2;
+      justify-content: space-between;
+
+      .second-image {
+        margin-top: 200px;
+      }
+    }
+  }
+}
