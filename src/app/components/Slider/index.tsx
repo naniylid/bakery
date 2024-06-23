@@ -4,6 +4,7 @@ import React from 'react';
 import './Slider.module.scss';
 import { Card } from '../Card';
 import { cards } from '../Card/content';
+import { RecentViewed } from '../RecentViewed';
 
 export const Slider: React.FC = () => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -59,13 +60,13 @@ export const Slider: React.FC = () => {
               <path
                 fill-rule='evenodd'
                 clip-rule='evenodd'
-                fill='#929292'
                 d='M10.7603 0.389755C11.1977 -0.0140416 11.8797 0.0132326 12.2835 0.450673L15.766 4.22336C16.1471 4.63627 16.1471 5.27271 15.766 5.68562L12.2835 9.45839C11.8797 9.89584 11.1977 9.92312 10.7603 9.51933C10.3228 9.11554 10.2955 8.43358 10.6993 7.99614L12.512 6.03242L2.03886 6.03242C1.44354 6.03242 0.960937 5.54982 0.960937 4.9545C0.960937 4.35918 1.44354 3.87657 2.03886 3.87657L12.5119 3.87657L10.6993 1.91295C10.2956 1.47551 10.3228 0.793551 10.7603 0.389755Z'
               />
             </svg>
           </button>
         </div>
       </div>
+      <RecentViewed />
     </section>
   );
 };

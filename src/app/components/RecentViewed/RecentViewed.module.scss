@@ -1,0 +1,126 @@
+.recent-viewed {
+  position: absolute;
+  margin-left: 976px;
+  margin-top: -40px;
+  border: 1px solid #edf2f7;
+  border-radius: 16px;
+  width: 365px;
+  height: 246px;
+  box-shadow: 10px 10px 50px 0 rgba(20, 20, 22, 0.1);
+  background: #fff;
+  padding: 24px;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 135%;
+      letter-spacing: 0.01em;
+      color: #1a202c;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  &__list {
+    margin-top: 28px;
+    width: 314px;
+
+    li {
+      margin-top: 20px;
+      list-style: none;
+      display: flex;
+
+      height: 61px;
+
+      .list {
+        &__image {
+          width: 51px;
+          height: 48px;
+          position: relative;
+
+          img {
+            border: 1.92px solid #fff;
+            border-radius: 960px;
+            width: 46px;
+            height: 46px;
+          }
+          p {
+            position: absolute;
+            left: 30.73px;
+            top: 27.22px;
+            width: 22px;
+            height: 22px;
+            border-radius: 100%;
+            background-color: #fff;
+            text-align: center;
+            padding: 2.5px 7.48px 2.2px 7.64px;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 150%;
+            letter-spacing: 0.01em;
+
+            color: #141416;
+          }
+        }
+
+        &__text {
+          margin-left: 15.36px;
+
+          h4 {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 140%;
+            color: #141416;
+          }
+          p {
+            margin-top: 7.68px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            color: #64748b;
+          }
+        }
+
+        &__price {
+          margin-left: 121.6px;
+          width: 63px;
+          height: 49px;
+
+          &--wrapper {
+            display: flex;
+            align-items: center;
+
+            p {
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 140%;
+              color: #141416;
+            }
+          }
+
+          &--percent {
+            padding: 7.68px 0 0 8.21px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 150%;
+          }
+
+          .positive {
+            color: #10c352;
+          }
+
+          .negative {
+            color: #e23333;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,5 @@
 @import './colorsFonts.scss';
-@import '../components/Navigation/Navigation.module.scss';
-@import '../components/Header/Header.module.scss';
-@import '../components/Card/Card.module.scss';
-@import '../components/Slider/Slider.module.scss';
+@import './all.scss';
 
 * {
   margin: 0;
@@ -16,5 +13,5 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  min-width: 1440px;
 }

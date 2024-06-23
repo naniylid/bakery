@@ -1,7 +1,7 @@
 .slider-section {
   background: #f1f1f1;
   margin-top: 165px;
-  height: 973px;
+  height: 873px;
 
   h2 {
     padding-top: 70px;
@@ -64,13 +64,15 @@
         justify-content: center;
 
         svg {
-          fill: '#929292';
+          filter: invert(62%) sepia(0%) saturate(6149%) hue-rotate(70deg) brightness(90%)
+            contrast(106%);
         }
       }
 
       .slider-button:hover {
         svg {
-          fill: #23262f;
+          filter: invert(9%) sepia(4%) saturate(5329%) hue-rotate(188deg) brightness(88%)
+            contrast(83%);
         }
       }
 
